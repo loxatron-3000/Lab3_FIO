@@ -12,18 +12,29 @@
 Изучить принципы интеграционного тестирования, внедрения зависимостей (Dependency Injection) и использования тестовых заглушек (mocks) при разработке программного обеспечения.
 
 ## 📁 Структура проекта
-Lab3_Triangle/
-├── TriangleChecker.cs # Класс из Лабораторной №1 (проверка треугольника)
-├── IDatabase.cs # Интерфейс для работы с БД
-├── Database.cs # Реализация БД (In-Memory)
-├── IUserInput.cs # Интерфейс для ввода данных
-├── ConsoleUserInput.cs # Реализация ввода через консоль
-├── IExternalService.cs # Интерфейс внешней зависимости
-├── MockEmailService.cs # Имитация email-сервера
-├── TriangleController.cs # Контроллер (бизнес-логика)
-├── Program.cs # Точка входа в приложение
-├── Lab3_Triangle.csproj # Файл проекта
-└── TriangleTests.cs # Модульные и интеграционные тесты
+Lab3_Triangle
+
+TriangleChecker.cs # Класс из Лабораторной №1 (проверка треугольника)
+
+IDatabase.cs # Интерфейс для работы с БД
+
+Database.cs # Реализация БД (In-Memory)
+
+IUserInput.cs # Интерфейс для ввода данных
+
+ConsoleUserInput.cs # Реализация ввода через консоль
+
+IExternalService.cs # Интерфейс внешней зависимости
+
+MockEmailService.cs # Имитация email-сервера
+
+TriangleController.cs # Контроллер (бизнес-логика)
+
+Program.cs # Точка входа в приложение
+
+Lab3_Triangle.csproj # Файл проекта
+
+TriangleTests.cs # Модульные и интеграционные тесты
 
 ## 🔧 Функциональность
 
