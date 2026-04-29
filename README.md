@@ -14,27 +14,27 @@
 ##  Структура проекта
 Lab3_Triangle
 
-TriangleChecker.cs # Класс из Лабораторной №1 (проверка треугольника)
+TriangleChecker.cs  Класс из Лабораторной №1 (проверка треугольника)
 
-IDatabase.cs # Интерфейс для работы с БД
+IDatabase.cs  Интерфейс для работы с БД
 
-Database.cs # Реализация БД (In-Memory)
+Database.cs  Реализация БД (In-Memory)
 
-IUserInput.cs # Интерфейс для ввода данных
+IUserInput.cs  Интерфейс для ввода данных
 
-ConsoleUserInput.cs # Реализация ввода через консоль
+ConsoleUserInput.cs  Реализация ввода через консоль
 
-IExternalService.cs # Интерфейс внешней зависимости
+IExternalService.cs  Интерфейс внешней зависимости
 
-MockEmailService.cs # Имитация email-сервера
+MockEmailService.cs Имитация email-сервера
 
-TriangleController.cs # Контроллер (бизнес-логика)
+TriangleController.cs  Контроллер (бизнес-логика)
 
-Program.cs # Точка входа в приложение
+Program.cs  Точка входа в приложение
 
-Lab3_Triangle.csproj # Файл проекта
+Lab3_Triangle.csproj  Файл проекта
 
-TriangleTests.cs # Модульные и интеграционные тесты
+TriangleTests.cs  Модульные и интеграционные тесты
 
 ##  Функциональность
 
